@@ -10,7 +10,7 @@ import Foundation
 import Wrap
 
 class EntityInfo {
-    private var _entity: Entity
+    private unowned var _entity: Entity
     var discarded = false
     var returned = false
     var mulliganed = false

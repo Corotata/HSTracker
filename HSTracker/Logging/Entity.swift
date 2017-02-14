@@ -19,7 +19,9 @@ class Entity {
     var cardId = ""
     var name: String?
     var tags: [GameTag: Int] = [:]
-    lazy var info: EntityInfo = { return EntityInfo(entity: self) }()
+    lazy var info: EntityInfo = { [unowned self] in
+        return EntityInfo(entity: self)
+    }()
 
     init() {
         self.id = -1

@@ -12,7 +12,7 @@ import CleanroomLogger
 class CardHudContainer: OverWindowController {
     
     var positions: [Int: [NSPoint]] = [:]
-    var huds: [CardHud] = []
+    var huds = [CardHud]()
     
     @IBOutlet weak var container: NSView!
     
