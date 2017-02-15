@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1C132F821DBA24C1002B1BF2 /* AppHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C132F811DBA24C1002B1BF2 /* AppHealth.swift */; };
 		1CB623A71DD37C890045E0CF /* GlowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB623A61DD37C890045E0CF /* GlowFilter.m */; };
+		1CB7D1931E5499F20019D5D6 /* LogReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB7D1921E5499F20019D5D6 /* LogReaderTests.swift */; };
+		1CB7D19B1E54AAE90019D5D6 /* Logs in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7D19A1E54AAE90019D5D6 /* Logs */; };
+		1CD426C41E54B34E005660D7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD426C31E54B34E005660D7 /* main.swift */; };
+		1CD426C61E54B37B005660D7 /* TestAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD426C51E54B37B005660D7 /* TestAppDelegate.swift */; };
 		340AAC051D0544AD0015FE33 /* StringTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340AAC041D0544AD0015FE33 /* StringTracker.swift */; };
 		4305CA401CF42AC70048E7EC /* Wrap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4305CA3D1CF42AC60048E7EC /* Wrap.framework */; };
 		4305CA411CF42AC70048E7EC /* Wrap.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4305CA3D1CF42AC60048E7EC /* Wrap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -381,6 +385,10 @@
 		1C132F811DBA24C1002B1BF2 /* AppHealth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHealth.swift; sourceTree = "<group>"; };
 		1CB623A51DD37C890045E0CF /* GlowFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowFilter.h; sourceTree = "<group>"; };
 		1CB623A61DD37C890045E0CF /* GlowFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowFilter.m; sourceTree = "<group>"; };
+		1CB7D1921E5499F20019D5D6 /* LogReaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogReaderTests.swift; sourceTree = "<group>"; };
+		1CB7D19A1E54AAE90019D5D6 /* Logs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Logs; path = TestData/Logs; sourceTree = "<group>"; };
+		1CD426C31E54B34E005660D7 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = HSTracker/main.swift; sourceTree = "<group>"; };
+		1CD426C51E54B37B005660D7 /* TestAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAppDelegate.swift; sourceTree = "<group>"; };
 		340AAC041D0544AD0015FE33 /* StringTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTracker.swift; sourceTree = "<group>"; };
 		4305CA3D1CF42AC60048E7EC /* Wrap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Wrap.framework; path = Carthage/Build/Mac/Wrap.framework; sourceTree = "<group>"; };
 		4305CA431CF42AE50048E7EC /* Wrap.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Wrap.framework.dSYM; path = Carthage/Build/Mac/Wrap.framework.dSYM; sourceTree = "<group>"; };
@@ -806,6 +814,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CB7D19C1E54AAF40019D5D6 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				1CB7D19A1E54AAE90019D5D6 /* Logs */,
+			);
+			name = TestData;
+			sourceTree = "<group>";
+		};
 		4323C5E31E1695DD00C97896 /* HearthMirror */ = {
 			isa = PBXGroup;
 			children = (
@@ -994,6 +1010,7 @@
 			children = (
 				439C7E4A1C7772C000D29859 /* HSTracker */,
 				439C7E4B1C7772C000D29859 /* AppDelegate.swift */,
+				1CD426C31E54B34E005660D7 /* main.swift */,
 				439C7E791C7779D200D29859 /* HSTracker-Bridging-Header.h */,
 				439C7E571C7772C000D29859 /* Info.plist */,
 				432B5FAD1CB5351800B05D19 /* Localizable.strings */,
@@ -1040,10 +1057,13 @@
 		439C7E5F1C7772C100D29859 /* HSTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
+				1CB7D19C1E54AAF40019D5D6 /* TestData */,
 				C94596811D174FBA008CD47A /* StatsTests.swift */,
 				439C7E601C7772C100D29859 /* HSTrackerTests.swift */,
 				439C7E621C7772C100D29859 /* Info.plist */,
 				43D307FC1C835DBA00480488 /* NetImportTest.swift */,
+				1CB7D1921E5499F20019D5D6 /* LogReaderTests.swift */,
+				1CD426C51E54B37B005660D7 /* TestAppDelegate.swift */,
 			);
 			path = HSTrackerTests;
 			sourceTree = "<group>";
@@ -1502,6 +1522,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB7D19B1E54AAE90019D5D6 /* Logs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1549,6 +1570,7 @@
 				43EBA3A31D1299AC0093B1C2 /* CardHudContainer.swift in Sources */,
 				4361D8341DC8A21800D831CF /* BnetGameType.swift in Sources */,
 				4360329A1C7B6578005F1893 /* InitialConfiguration.swift in Sources */,
+				1CD426C41E54B34E005660D7 /* main.swift in Sources */,
 				439C7EB71C777F8900D29859 /* CardType.swift in Sources */,
 				432B60391CBF9AD700B05D19 /* ManaGemButton.swift in Sources */,
 				43D308041C842DC000480488 /* GeneralPreferences.swift in Sources */,
@@ -1722,8 +1744,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				43D307FD1C835DBA00480488 /* NetImportTest.swift in Sources */,
+				1CD426C61E54B37B005660D7 /* TestAppDelegate.swift in Sources */,
 				C94596821D174FBA008CD47A /* StatsTests.swift in Sources */,
 				439C7E611C7772C100D29859 /* HSTrackerTests.swift in Sources */,
+				1CB7D1931E5499F20019D5D6 /* LogReaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2173,6 +2197,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -2192,6 +2217,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",

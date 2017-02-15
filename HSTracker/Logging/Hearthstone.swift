@@ -31,7 +31,7 @@ final class Hearthstone: NSObject {
     var queue = DispatchQueue(label: "be.michotte.hstracker.readers", attributes: [])
     
     override init() {
-        logReaderManager = LogReaderManager(logPath: Settings.instance.hearthstoneLogPath)
+        logReaderManager = LogReaderManager(rootPath: Settings.instance.hearthstonePath)
         super.init()
     }
 
@@ -46,7 +46,7 @@ final class Hearthstone: NSObject {
     }
 
     static func validatedHearthstonePath() -> Bool {
-        let path = "\(Settings.instance.hearthstoneLogPath)/Hearthstone.app"
+        let path = "\(Settings.instance.hearthstonePath)/Hearthstone.app"
         let exists = FileManager.default.fileExists(atPath: path)
         AppHealth.instance.setHSInstalled(flag: exists)
         return exists
@@ -313,7 +313,7 @@ final class Hearthstone: NSObject {
     }
 
     var logPath: String {
-        return Settings.instance.hearthstoneLogPath
+        return Settings.instance.hearthstonePath
     }
 
     var isHearthstoneRunning: Bool {

@@ -25,7 +25,7 @@ class GamePreferences: NSViewController {
         let settings = Settings.instance
 
         if Hearthstone.validatedHearthstonePath() {
-            hearthstonePath.stringValue = settings.hearthstoneLogPath
+            hearthstonePath.stringValue = settings.hearthstonePath
             hearthstonePath.isEnabled = false
             chooseHearthstonePath.isEnabled = false
             checkImage.image = NSImage(named: "check")
@@ -73,7 +73,7 @@ class GamePreferences: NSViewController {
                     let path = url.path
                     hearthstonePath.stringValue = path.replace("/Hearthstone.app", with: "")
                     checkImage.image = NSImage(named: "check")
-                    settings.hearthstoneLogPath = hearthstonePath.stringValue
+                    settings.hearthstonePath = hearthstonePath.stringValue
                 }
             }
         }

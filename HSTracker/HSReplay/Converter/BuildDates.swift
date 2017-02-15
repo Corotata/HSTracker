@@ -110,7 +110,7 @@ struct BuildDates {
     }
 
     static func getByProductDb() -> BuildDate? {
-        let path = Settings.instance.hearthstoneLogPath
+        let path = Settings.instance.hearthstonePath
         guard let data = try? Data(contentsOf: URL(fileURLWithPath: "\(path)/.product.db")) else {
             return nil
         }

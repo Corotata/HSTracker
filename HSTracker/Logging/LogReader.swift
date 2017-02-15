@@ -25,12 +25,12 @@ final class LogReader {
 
     private var queue: DispatchQueue?
 
-    init(info: LogReaderInfo, logPath: String) {
+    init(info: LogReaderInfo, logPath: String, cleanUpLogFile: Bool = true) {
         self.info = info
 
-        self.path = "\(logPath)/Logs/\(info.name).log"
+        self.path = "\(logPath)/\(info.name).log"
         Log.info?.message("Init reader for \(info.name) at path \(self.path)")
-        if fileManager.fileExists(atPath: self.path)
+        if fileManager.fileExists(atPath: self.path) && cleanUpLogFile
             && !FileUtils.isFileOpen(byHearthstone: self.path) {
             do {
                 try fileManager.removeItem(atPath: self.path)

@@ -73,7 +73,7 @@ final class Settings {
         set { set(name: "archive_arena_deck", value: newValue) }
         get { return get(name: "archive_arena_deck") as? Bool ?? true }
     }
-    var hearthstoneLogPath: String {
+    var hearthstonePath: String {
         set { set(name: "hearthstone_log_path", value: newValue) }
         get { return get(name: "hearthstone_log_path") as? String ?? "/Applications/Hearthstone" }
     }

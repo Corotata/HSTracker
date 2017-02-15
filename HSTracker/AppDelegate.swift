@@ -12,7 +12,7 @@ import MASPreferences
 import HockeySDK
 import RealmSwift
 
-@NSApplicationMain
+//@NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     var appWillRestart = false
@@ -132,8 +132,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         Log.info?.message("*** Starting \(Version.buildName) ***")
 
-        if settings.hearthstoneLogPath.hasSuffix("/Logs") {
-            settings.hearthstoneLogPath = settings.hearthstoneLogPath.replace("/Logs", with: "")
+        if settings.hearthstonePath.hasSuffix("/Logs") {
+            settings.hearthstonePath = settings.hearthstonePath.replace("/Logs", with: "")
         }
 
         // make sure we initialize Game in the main thread

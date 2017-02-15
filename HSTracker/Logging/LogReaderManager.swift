@@ -33,7 +33,8 @@ final class LogReaderManager {
     var running = false
     var stopped = false
     
-    init(logPath: String) {
+    init(rootPath: String) {
+        let logPath = rootPath + "/Logs"
         let rx = "GameState.DebugPrintEntityChoices\\(\\)\\s-\\sid=(\\d) Player=(.+) TaskList=(\\d)"
         let plReader = LogReaderInfo(name: .power,
                                      startsWithFilters: ["PowerTaskList.DebugPrintPower", rx],
