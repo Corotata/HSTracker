@@ -1,0 +1,61 @@
+D 20:41:19.9441060 StoreManager updated CONFIG delay, now waiting 120 seconds between requests
+D 20:41:21.5133830 CollectionManager.OnNetCacheReady
+D 20:41:21.5292690 CollectionManager.AddPreconDeck() heroClass=DRUID deckID=188291
+D 20:41:21.5295740 CollectionManager.AddPreconDeck() heroClass=HUNTER deckID=172325
+D 20:41:21.5295980 CollectionManager.AddPreconDeck() heroClass=MAGE deckID=171593
+D 20:41:21.5296150 CollectionManager.AddPreconDeck() heroClass=PALADIN deckID=195296
+D 20:41:21.5298270 CollectionManager.AddPreconDeck() heroClass=PRIEST deckID=202289
+D 20:41:21.5298500 CollectionManager.AddPreconDeck() heroClass=ROGUE deckID=191407
+D 20:41:21.5298660 CollectionManager.AddPreconDeck() heroClass=SHAMAN deckID=187427
+D 20:41:21.5298830 CollectionManager.AddPreconDeck() heroClass=WARLOCK deckID=196036
+D 20:41:21.5299010 CollectionManager.AddPreconDeck() heroClass=WARRIOR deckID=177762
+D 20:41:21.5848250 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 1 : PROGRESS [AdventureMission.WingProgress: Wing=1, Progress=4 Flags=0]
+D 20:41:21.5860950 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 1 : PROGRESS [AdventureMission.WingProgress: Wing=1, Progress=4 Flags=783] (former flags [AdventureMission.WingProgress: Wing=1, Progress=4 Flags=0])
+D 20:41:21.5863960 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 2 : PROGRESS [AdventureMission.WingProgress: Wing=2, Progress=4 Flags=0]
+D 20:41:21.5864290 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 2 : PROGRESS [AdventureMission.WingProgress: Wing=2, Progress=4 Flags=783] (former flags [AdventureMission.WingProgress: Wing=2, Progress=4 Flags=0])
+D 20:41:21.5864490 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 3 : PROGRESS [AdventureMission.WingProgress: Wing=3, Progress=4 Flags=0]
+D 20:41:21.5864650 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 3 : PROGRESS [AdventureMission.WingProgress: Wing=3, Progress=4 Flags=783] (former flags [AdventureMission.WingProgress: Wing=3, Progress=4 Flags=0])
+D 20:41:21.5866930 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 4 : PROGRESS [AdventureMission.WingProgress: Wing=4, Progress=5 Flags=0]
+D 20:41:21.5867180 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 4 : PROGRESS [AdventureMission.WingProgress: Wing=4, Progress=5 Flags=799] (former flags [AdventureMission.WingProgress: Wing=4, Progress=5 Flags=0])
+D 20:41:21.5867340 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 5 : PROGRESS [AdventureMission.WingProgress: Wing=5, Progress=3 Flags=0]
+D 20:41:21.5867480 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 5 : PROGRESS [AdventureMission.WingProgress: Wing=5, Progress=3 Flags=263] (former flags [AdventureMission.WingProgress: Wing=5, Progress=3 Flags=0])
+D 20:41:21.5867650 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 6 : PROGRESS [AdventureMission.WingProgress: Wing=6, Progress=4 Flags=0]
+D 20:41:21.5867800 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 6 : PROGRESS [AdventureMission.WingProgress: Wing=6, Progress=4 Flags=783] (former flags [AdventureMission.WingProgress: Wing=6, Progress=4 Flags=0])
+D 20:41:21.5867940 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 7 : PROGRESS [AdventureMission.WingProgress: Wing=7, Progress=4 Flags=0]
+D 20:41:21.5868070 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 7 : PROGRESS [AdventureMission.WingProgress: Wing=7, Progress=4 Flags=783] (former flags [AdventureMission.WingProgress: Wing=7, Progress=4 Flags=0])
+D 20:41:21.5868200 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 8 : PROGRESS [AdventureMission.WingProgress: Wing=8, Progress=4 Flags=0]
+D 20:41:21.5868400 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 8 : PROGRESS [AdventureMission.WingProgress: Wing=8, Progress=4 Flags=783] (former flags [AdventureMission.WingProgress: Wing=8, Progress=4 Flags=0])
+D 20:41:21.5868570 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 9 : PROGRESS [AdventureMission.WingProgress: Wing=9, Progress=5 Flags=0]
+D 20:41:21.5868710 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 9 : PROGRESS [AdventureMission.WingProgress: Wing=9, Progress=5 Flags=799] (former flags [AdventureMission.WingProgress: Wing=9, Progress=5 Flags=0])
+D 20:41:21.5869150 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 10 : PROGRESS [AdventureMission.WingProgress: Wing=10, Progress=5 Flags=0]
+D 20:41:21.5869320 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 10 : PROGRESS [AdventureMission.WingProgress: Wing=10, Progress=5 Flags=287] (former flags [AdventureMission.WingProgress: Wing=10, Progress=5 Flags=0])
+D 20:41:21.5869510 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 11 : PROGRESS [AdventureMission.WingProgress: Wing=11, Progress=4 Flags=0]
+D 20:41:21.5869640 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 11 : PROGRESS [AdventureMission.WingProgress: Wing=11, Progress=4 Flags=783] (former flags [AdventureMission.WingProgress: Wing=11, Progress=4 Flags=0])
+D 20:41:21.5869770 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 12 : PROGRESS [AdventureMission.WingProgress: Wing=12, Progress=4 Flags=0]
+D 20:41:21.5869900 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 12 : PROGRESS [AdventureMission.WingProgress: Wing=12, Progress=4 Flags=783] (former flags [AdventureMission.WingProgress: Wing=12, Progress=4 Flags=0])
+D 20:41:21.5870060 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 13 : PROGRESS [AdventureMission.WingProgress: Wing=13, Progress=4 Flags=0]
+D 20:41:21.5870250 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 13 : PROGRESS [AdventureMission.WingProgress: Wing=13, Progress=4 Flags=1807] (former flags [AdventureMission.WingProgress: Wing=13, Progress=4 Flags=0])
+D 20:41:21.5870380 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 14 : PROGRESS [AdventureMission.WingProgress: Wing=14, Progress=5 Flags=0]
+D 20:41:21.5870590 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 14 : PROGRESS [AdventureMission.WingProgress: Wing=14, Progress=5 Flags=783] (former flags [AdventureMission.WingProgress: Wing=14, Progress=5 Flags=0])
+D 20:41:21.5870710 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 15 : PROGRESS [AdventureMission.WingProgress: Wing=15, Progress=2 Flags=0]
+D 20:41:21.5870870 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 15 : PROGRESS [AdventureMission.WingProgress: Wing=15, Progress=2 Flags=3] (former flags [AdventureMission.WingProgress: Wing=15, Progress=2 Flags=0])
+D 20:41:21.5870990 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 16 : PROGRESS [AdventureMission.WingProgress: Wing=16, Progress=4 Flags=0]
+D 20:41:21.5871130 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 16 : PROGRESS [AdventureMission.WingProgress: Wing=16, Progress=4 Flags=783] (former flags [AdventureMission.WingProgress: Wing=16, Progress=4 Flags=0])
+D 20:41:21.5871280 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 17 : PROGRESS [AdventureMission.WingProgress: Wing=17, Progress=4 Flags=0]
+D 20:41:21.5871410 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 17 : PROGRESS [AdventureMission.WingProgress: Wing=17, Progress=4 Flags=769] (former flags [AdventureMission.WingProgress: Wing=17, Progress=4 Flags=0])
+D 20:41:21.5871570 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 18 : PROGRESS [AdventureMission.WingProgress: Wing=18, Progress=4 Flags=0]
+D 20:41:21.5871700 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 18 : PROGRESS [AdventureMission.WingProgress: Wing=18, Progress=4 Flags=1793] (former flags [AdventureMission.WingProgress: Wing=18, Progress=4 Flags=0])
+D 20:41:21.5871830 AdventureProgressMgr.CreateOrUpdateProgress: creating wing 19 : PROGRESS [AdventureMission.WingProgress: Wing=19, Progress=4 Flags=0]
+D 20:41:21.5871970 AdventureProgressMgr.CreateOrUpdateWingFlags: updating wing 19 : PROGRESS [AdventureMission.WingProgress: Wing=19, Progress=4 Flags=769] (former flags [AdventureMission.WingProgress: Wing=19, Progress=4 Flags=0])
+D 20:41:21.9469960 StoreManager reset CONFIG delay, now waiting 60 seconds between requests
+D 20:41:21.9759020 StoreManager updated STATUS delay, now waiting 90 seconds between requests
+D 20:41:21.9771740 OnAccountLicensesUpdatedResponse consumableLicensesUpdateState=SUCCESS fixedLicensesUpdateState=SUCCESS
+D 20:41:22.4839820 SetActiveMoneyOrGTAPPTransaction() [MoneyOrGTAPPTransaction: ID=112946784,ProductID='99100015051000072385',IsGTAPP=False,Provider=BP_PROVIDER_BLIZZARD]
+D 20:41:22.4842770 StoreManager.ResolveFirstMoneyTransactionIfPossible(): no outstanding notices for transaction [MoneyOrGTAPPTransaction: ID=112946784,ProductID='99100015051000072385',IsGTAPP=False,Provider=BP_PROVIDER_BLIZZARD]; setting m_activeMoneyOrGTAPPTransaction = null
+D 20:41:22.4870540 StoreManager reset STATUS delay, now waiting 45 seconds between requests
+D 21:25:42.2951680 RewardUtils.GetViewableRewards() - processing reward [GoldRewardData: Amount=40 Origin=ACHIEVEMENT OriginData=54]
+D 21:46:16.0460830 RewardUtils.GetViewableRewards() - processing reward [GoldRewardData: Amount=10 Origin=TOURNEY OriginData=0]
+D 21:46:21.2128300 EndGameTwoScoop.UpdateData(): 3/3 wins towards 10 gold
+D 22:00:15.5839790 EndGameTwoScoop.UpdateData(): 1/3 wins towards 10 gold
+D 22:37:19.5059250 VictoryScreen.InitGoldRewardUI(): goldRewardState = WRONG_GAME_TYPE
+D 23:11:41.5511710 artStacksToDisplay is null!

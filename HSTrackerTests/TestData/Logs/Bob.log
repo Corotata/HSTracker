@@ -1,0 +1,274 @@
+D 20:41:18.2182660 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 20:41:18.3726720 ---RegisterFriendChallenge---
+D 20:41:18.4784980 ---RegisterCollectionManager---
+D 20:41:18.4795130 ---RegisterScreenBox---
+D 20:41:18.5097710 ---RegisterFeatures---
+D 20:41:18.5118720 ---RegisterFeatures---
+D 20:41:20.8118150 ---RegisterScreenLogin---
+D 20:41:21.4095140 OnNetCacheObjReceived SAVE --> NetCacheProfileProgress
+D 20:41:21.4443140 OnNetCacheObjReceived SAVE --> NetCacheDecks
+D 20:41:21.4486010 OnNetCacheObjReceived SAVE --> NetCacheCollection
+D 20:41:21.4783170 OnNetCacheObjReceived SAVE --> NetCacheCardValues
+D 20:41:21.4793130 OnNetCacheObjReceived SAVE --> NetCacheArcaneDustBalance
+D 20:41:21.5126410 OnNetCacheObjReceived SAVE --> NetCacheClientOptions
+D 20:41:21.5402250 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 20:41:21.5767960 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 20:41:21.6196710 OnNetCacheObjReceived SAVE --> NetCacheTavernBrawlInfo
+D 20:41:21.6232650 OnNetCacheObjReceived SAVE --> NetCacheNotSoMassiveLogin
+D 20:41:21.6244200 OnNetCacheObjReceived SAVE --> NetCacheRewardProgress
+D 20:41:21.6440470 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 20:41:21.6452130 OnNetCacheObjReceived SAVE --> NetCacheGoldBalance
+D 20:41:21.6784470 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 20:41:21.6821210 OnNetCacheObjReceived SAVE --> NetCacheCardBacks
+D 20:41:21.8476470 OnNetCacheObjReceived SAVE --> NetCacheFavoriteHeroes
+D 20:41:21.8512880 OnNetCacheObjReceived SAVE --> NetCacheAccountLicenses
+D 20:41:21.8761780 OnNetCacheObjReceived SAVE --> ClientStaticAssetsResponse
+D 20:41:21.9794760 ---RegisterFeatures---
+D 20:41:22.2134400 OnNetCacheObjReceived SAVE --> NetCacheProfileNotices
+D 20:41:22.2215950 OnNetCacheObjReceived SAVE --> NetCacheProfileNotices
+D 20:41:30.0120710 NetCache <<<GET NetCacheBoosters
+D 20:41:30.0126440 NetCache <<<GET NetCacheFeatures
+D 20:41:30.2774410 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 20:41:30.3107510 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 20:41:33.5133260 ---RegisterScreenTourneys---
+D 20:41:34.1443220 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 20:41:34.1777620 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 20:41:34.1783230 play queue BGT_CASUAL_STANDARD
+D 20:41:34.1853310 Network.GetDeckContents 934551325, 969743597, 1071132634, 1072261855, 1079229700, 1091170478, 1093569229, 1097607686, 1096283998, 988787057, 1083948343
+D 20:41:37.7440330 NetCache <<<GET NetCacheBoosters
+D 20:41:37.7440690 NetCache <<<GET NetCacheFeatures
+D 20:41:38.0108460 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 20:41:38.0442350 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 20:41:39.2333360 ---RegisterScreenQuestLog---
+D 20:41:39.4438070 OnNetCacheObjReceived SAVE --> NetCacheProfileProgress
+D 20:41:42.3854110 ---RegisterScreenTourneys---
+D 20:41:42.5773800 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 20:41:42.6105120 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 20:41:42.6105920 play queue BGT_CASUAL_STANDARD
+D 20:41:46.4535830 NetCache <<<GET NetCacheBoosters
+D 20:41:46.4536130 NetCache <<<GET NetCacheFeatures
+D 20:41:46.7213370 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 20:41:46.7541660 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 20:46:14.3248740 ---RegisterScreenTourneys---
+D 20:46:14.5506530 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 20:46:14.5839760 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 20:46:14.5840470 play queue BGT_CASUAL_STANDARD
+D 20:53:14.8383400 ---RegisterScreenEndOfGame---
+D 20:53:15.1636640 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 20:53:15.1973280 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 20:53:15.2634010 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 20:53:15.2966340 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 20:53:26.2415510 ---RegisterScreenBox---
+D 20:53:26.9635300 ---RegisterScreenTourneys---
+D 20:53:27.3629260 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 20:53:27.3962810 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 20:53:27.3963560 play queue BGT_CASUAL_STANDARD
+D 20:53:29.0163840 ---RegisterFriendChallenge---
+D 20:59:53.8266100 ---RegisterScreenEndOfGame---
+D 20:59:54.1388880 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 20:59:54.1725180 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 20:59:54.2390690 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 20:59:54.2726080 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 21:00:03.8629120 ---RegisterScreenBox---
+D 21:00:04.0129330 ---RegisterScreenTourneys---
+D 21:00:04.2724510 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:00:04.3056380 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 21:00:04.3057140 play queue BGT_CASUAL_STANDARD
+D 21:00:04.8076580 ---RegisterFriendChallenge---
+D 21:05:27.3792850 ---RegisterScreenEndOfGame---
+D 21:05:27.8490040 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:05:27.8820370 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 21:05:27.9487110 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 21:05:27.9819560 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 21:05:38.1038820 ---RegisterScreenBox---
+D 21:05:38.2521550 ---RegisterScreenTourneys---
+D 21:05:38.8473610 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:05:38.8804770 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 21:05:38.8805570 play queue BGT_CASUAL_STANDARD
+D 21:05:40.2177620 ---RegisterFriendChallenge---
+D 21:10:52.6344890 ---RegisterScreenEndOfGame---
+D 21:10:53.0736690 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:10:53.1074330 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 21:10:53.2077000 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 21:10:53.2407460 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 21:17:05.9670970 ---RegisterScreenBox---
+D 21:17:06.3497000 ---RegisterScreenTourneys---
+D 21:17:06.8766010 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:17:06.9105440 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 21:17:06.9106270 play queue BGT_CASUAL_STANDARD
+D 21:17:08.2195970 ---RegisterFriendChallenge---
+D 21:25:41.7991460 ---RegisterScreenEndOfGame---
+D 21:25:41.8630460 OnNetCacheObjReceived SAVE --> NetCacheProfileNotices
+D 21:25:42.1947740 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:25:42.2280510 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 21:25:42.2613550 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 21:25:42.2947790 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 21:25:53.0617840 OnNetCacheObjReceived SAVE --> NetCacheGoldBalance
+D 21:25:55.3863660 ---RegisterScreenBox---
+D 21:25:57.6677620 ---RegisterScreenTourneys---
+D 21:25:58.8616090 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:25:58.8950220 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 21:25:58.8951000 play queue BGT_CASUAL_STANDARD
+D 21:26:02.5782040 ---RegisterFriendChallenge---
+D 21:26:04.5953670 NetCache <<<GET NetCacheBoosters
+D 21:26:04.5953980 NetCache <<<GET NetCacheFeatures
+D 21:26:04.8290610 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 21:26:04.9288800 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 21:26:07.1707870 ---RegisterScreenTourneys---
+D 21:26:07.4285570 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:26:07.4620640 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 21:26:07.4621350 play queue BGT_CASUAL_STANDARD
+D 21:26:09.3952000 NetCache <<<GET NetCacheBoosters
+D 21:26:09.3952340 NetCache <<<GET NetCacheFeatures
+D 21:26:09.6291870 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 21:26:09.6957940 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 21:26:11.5396730 ---RegisterScreenQuestLog---
+D 21:26:11.7284040 OnNetCacheObjReceived SAVE --> NetCacheProfileProgress
+D 21:26:24.0710230 ---RegisterScreenTourneys---
+D 21:26:24.2955580 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:26:24.3288360 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 21:26:24.3289090 play queue BGT_CASUAL_STANDARD
+D 21:33:04.2596620 ---RegisterScreenEndOfGame---
+D 21:33:04.5100410 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:33:04.5431920 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 21:33:04.5765620 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 21:33:04.6095390 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 21:33:16.8173550 ---RegisterScreenBox---
+D 21:33:19.9838440 ---RegisterScreenTourneys---
+D 21:33:21.1381160 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:33:21.1715270 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 21:33:21.1716080 play queue BGT_CASUAL_STANDARD
+D 21:33:24.6533910 ---RegisterFriendChallenge---
+D 21:37:53.5776480 ---RegisterScreenEndOfGame---
+D 21:37:53.9945430 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:37:54.0272020 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 21:37:54.0606090 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 21:37:54.0937610 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 21:38:02.7946680 ---RegisterScreenBox---
+D 21:38:04.2043140 ---RegisterScreenTourneys---
+D 21:38:04.8937370 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:38:04.9270460 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 21:38:04.9271250 play queue BGT_CASUAL_STANDARD
+D 21:38:07.7455270 ---RegisterFriendChallenge---
+D 21:40:29.6162820 ---RegisterScreenEndOfGame---
+D 21:40:30.0640570 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:40:30.0970440 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 21:40:30.1302830 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 21:40:30.1637460 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 21:40:37.2162570 ---RegisterScreenBox---
+D 21:40:39.2666790 ---RegisterScreenTourneys---
+D 21:40:40.6639730 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:40:40.6972300 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 21:40:40.6973110 play queue BGT_CASUAL_STANDARD
+D 21:40:44.2215200 ---RegisterFriendChallenge---
+D 21:46:13.7383730 OnNetCacheObjReceived SAVE --> NetCacheProfileNotices
+D 21:46:15.5541170 ---RegisterScreenEndOfGame---
+D 21:46:15.9488600 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:46:15.9794740 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 21:46:16.0131030 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 21:46:16.0459750 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 21:46:22.9718440 OnNetCacheObjReceived SAVE --> NetCacheGoldBalance
+D 21:46:25.8591470 ---RegisterScreenBox---
+D 21:46:31.0429940 ---RegisterScreenTourneys---
+D 21:46:33.2390960 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:46:33.2723810 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 21:46:33.2724570 play queue BGT_CASUAL_STANDARD
+D 21:46:38.6662000 ---RegisterFriendChallenge---
+D 21:51:54.8024770 ---RegisterScreenEndOfGame---
+D 21:51:55.2796880 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:51:55.3130160 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 21:51:55.3464580 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 21:51:55.3795700 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 21:52:02.9860810 ---RegisterScreenBox---
+D 21:52:04.8621120 ---RegisterScreenTourneys---
+D 21:52:05.7126390 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 21:52:05.7460320 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 21:52:05.7461060 play queue BGT_CASUAL_STANDARD
+D 21:52:08.5665080 ---RegisterFriendChallenge---
+D 22:00:10.2695870 ---RegisterScreenEndOfGame---
+D 22:00:10.8066500 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 22:00:10.8397000 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 22:00:10.8731660 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 22:00:10.9066870 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 22:00:18.6044010 ---RegisterScreenBox---
+D 22:00:19.7262220 ---RegisterScreenTourneys---
+D 22:00:20.4067490 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 22:00:20.4399780 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 22:00:20.4400590 play queue BGT_CASUAL_STANDARD
+D 22:00:22.8829290 ---RegisterFriendChallenge---
+D 22:00:30.3418850 NetCache <<<GET NetCacheBoosters
+D 22:00:30.3419170 NetCache <<<GET NetCacheFeatures
+D 22:00:30.5081730 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 22:00:30.6083810 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 22:17:10.5038340 ---RegisterScreenCollectionManager---
+D 22:17:45.8901720 NetCache <<<GET NetCacheBoosters
+D 22:17:45.8902060 NetCache <<<GET NetCacheFeatures
+D 22:17:46.0897100 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 22:17:46.1562530 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 22:17:49.4347570 ---RegisterScreenForge---
+D 22:29:00.6822900 ---RegisterScreenEndOfGame---
+D 22:29:01.1478320 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 22:29:01.1811920 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 22:29:01.2146380 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 22:29:01.2809870 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 22:29:08.8843330 ---RegisterScreenBox---
+D 22:29:09.6727990 ---RegisterScreenForge---
+D 22:29:10.3973980 ---RegisterFriendChallenge---
+D 22:37:14.2900770 ---RegisterScreenEndOfGame---
+D 22:37:14.7266840 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 22:37:14.7929680 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 22:37:14.8594220 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 22:37:14.8929500 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 22:37:23.0334970 ---RegisterScreenBox---
+D 22:37:23.2421260 ---RegisterScreenForge---
+D 22:37:23.5946080 ---RegisterFriendChallenge---
+D 22:37:27.6929560 NetCache <<<GET NetCacheBoosters
+D 22:37:27.6929900 NetCache <<<GET NetCacheFeatures
+D 22:37:27.8600620 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 22:37:27.9598610 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 22:37:57.5517910 ---RegisterScreenQuestLog---
+D 22:37:57.7849390 OnNetCacheObjReceived SAVE --> NetCacheProfileProgress
+D 22:38:20.3821950 ---RegisterScreenForge---
+D 22:52:10.5103310 OnNetCacheObjReceived SAVE --> NetCacheProfileNotices
+D 22:52:12.2527420 ---RegisterScreenEndOfGame---
+D 22:52:12.6435090 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 22:52:12.6767010 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 22:52:12.7101040 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 22:52:12.7433150 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 22:52:21.6426130 ---RegisterScreenBox---
+D 22:52:23.0208680 ---RegisterScreenForge---
+D 22:52:23.8374300 ---RegisterFriendChallenge---
+D 23:10:07.2811740 ---RegisterScreenEndOfGame---
+D 23:10:07.6421390 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 23:10:07.6758340 OnNetCacheObjReceived SAVE --> NetCacheGamesPlayed
+D 23:10:07.7088670 OnNetCacheObjReceived SAVE --> NetCachePlayerRecords
+D 23:10:07.7421440 OnNetCacheObjReceived SAVE --> NetCacheHeroLevels
+D 23:10:15.0774580 ---RegisterScreenBox---
+D 23:10:17.1447280 ---RegisterScreenForge---
+D 23:10:17.9396400 ---RegisterFriendChallenge---
+D 23:10:41.7428000 OnNetCacheObjReceived SAVE --> NetCacheGoldBalance
+D 23:10:43.5760620 NetCache <<<GET NetCacheBoosters
+D 23:10:43.5760980 NetCache <<<GET NetCacheFeatures
+D 23:10:43.8443870 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 23:10:43.8760190 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 23:10:48.3350610 ---RegisterScreenPackOpening---
+D 23:10:50.5444400 Network.OpenBooster
+D 23:11:07.6769570 NetCache <<<GET NetCacheBoosters
+D 23:11:07.6769920 NetCache <<<GET NetCacheFeatures
+D 23:11:07.8769320 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 23:11:07.9433430 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 23:11:20.2899750 ---RegisterScreenCollectionManager---
+D 23:11:46.1333060 NetCache <<<GET NetCacheBoosters
+D 23:11:46.1335240 NetCache <<<GET NetCacheFeatures
+D 23:11:46.4107900 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 23:11:46.4439030 OnNetCacheObjReceived SAVE --> NetCacheFeatures
+D 23:15:09.1819700 ---RegisterScreenQuestLog---
+D 23:15:09.4978620 OnNetCacheObjReceived SAVE --> NetCacheProfileProgress
+D 23:15:55.4181590 ---RegisterScreenTourneys---
+D 23:16:03.7178470 OnNetCacheObjReceived SAVE --> NetCacheMedalInfo
+D 23:16:03.7523770 OnNetCacheObjReceived SAVE --> NetCachePlayQueue
+D 23:16:03.7524790 play queue BGT_CASUAL_STANDARD
+D 23:16:37.9671880 NetCache <<<GET NetCacheBoosters
+D 23:16:37.9672380 NetCache <<<GET NetCacheFeatures
+D 23:16:38.2002350 OnNetCacheObjReceived SAVE --> NetCacheBoosters
+D 23:16:38.2335080 OnNetCacheObjReceived SAVE --> NetCacheFeatures

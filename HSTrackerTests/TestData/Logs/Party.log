@@ -1,0 +1,11 @@
+D 00:07:50.8454070 ================== Begin Spectating 1st player ==================
+D 00:07:53.6142220 SpectatorParty_OnJoined: joined party=432345569961877405-16675432164212535766 as spectator, begin spectating game.
+D 00:16:22.1917950 ================== End Spectator Game ==================
+D 00:16:24.1223730 SpectatorParty_OnLeft: left party=SPECTATOR_PARTY:432345569961877405-16675432164212535766 current=432345569961877405-16675432164212535766 reason=MEMBER_LEFT wasRequested=False
+D 00:16:24.1231340 ================== End Spectator Mode ==================
+D 00:26:25.6247550 SpectatorParty_OnLeft: left party=SPECTATOR_PARTY:432345569961877518-15133293743920313528 current=432345569961877518-15133293743920313528 reason=DISSOLVED_BY_MEMBER wasRequested=False
+D 00:26:25.6249300 ================== Begin Spectating 1st player ==================
+D 00:26:27.2914040 SpectatorParty_OnJoined: joined party=432345569961877418-14893954075715633654 as spectator, begin spectating game.
+D 00:35:40.2458380 ================== End Spectator Game ==================
+D 00:35:41.4764530 SpectatorParty_OnLeft: left party=SPECTATOR_PARTY:432345569961877418-14893954075715633654 current=432345569961877418-14893954075715633654 reason=MEMBER_LEFT wasRequested=False
+D 00:35:41.4769320 ================== End Spectator Mode ==================

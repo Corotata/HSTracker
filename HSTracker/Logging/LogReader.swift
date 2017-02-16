@@ -69,23 +69,27 @@ final class LogReader {
         return DateInRegion.distantPast
     }
 
-    func start(manager logReaderManager: LogReaderManager, entryPoint: DateInRegion) {
+    func start(manager logReaderManager: LogReaderManager, entryPoint: DateInRegion, asynch: Bool = true) {
         stopped = false
         self.logReaderManager = logReaderManager
         startingPoint = entryPoint
 
-        var queueName = "be.michotte.hstracker.readers.\(info.name)"
-        if let filter = info.startsWithFilters.first {
-            queueName += ".\(filter.lowercased())"
-        }
-        queue = DispatchQueue(label: queueName, attributes: [])
-        if let queue = queue {
-            Log.info?.message("Starting to track \(info.name)")
-            let sp = startingPoint.string(format: .iso8601(options: [.withInternetDateTime]))
-            Log.verbose?.message("\(info.name) has queue \(queueName) starting at \(sp)")
-            queue.async {
-                self.readFile()
+        if asynch {
+            var queueName = "be.michotte.hstracker.readers.\(info.name)"
+            if let filter = info.startsWithFilters.first {
+                queueName += ".\(filter.lowercased())"
             }
+            queue = DispatchQueue(label: queueName, attributes: [])
+            if let queue = queue {
+                Log.info?.message("Starting to track \(info.name)")
+                let sp = startingPoint.string(format: .iso8601(options: [.withInternetDateTime]))
+                Log.verbose?.message("\(info.name) has queue \(queueName) starting at \(sp)")
+                queue.async {
+                    self.readFile()
+                }
+            }
+        } else {
+            self.readFile()
         }
     }
 
@@ -93,61 +97,69 @@ final class LogReader {
         Log.verbose?.message("reading \(path)")
 
         while !stopped {
-            if fileHandle == nil && fileManager.fileExists(atPath: path) {
-                fileHandle = FileHandle(forReadingAtPath: path)
-                findInitialOffset()
-                fileHandle?.seek(toFileOffset: offset)
+            read()
 
-                let sp = startingPoint.string(format: .iso8601(options: [.withInternetDateTime]))
-                Log.verbose?.message("file exists \(path), offset for \(sp) is \(offset)")
-            }
+            Thread.sleep(forTimeInterval: 0.1)
+        }
+    }
+    
+    func read(asynch: Bool = true) {
+        if fileHandle == nil && fileManager.fileExists(atPath: path) {
+            fileHandle = FileHandle(forReadingAtPath: path)
+            findInitialOffset()
+            fileHandle?.seek(toFileOffset: offset)
             
-            if let data = fileHandle?.readDataToEndOfFile() {
-                if let linesStr = String(data: data, encoding: .utf8) {
-
-                    let lines = linesStr
-                        .components(separatedBy: CharacterSet.newlines)
-                        .filter { !$0.isEmpty && $0.hasPrefix("D ") && $0.characters.count > 20 }
-
-                    if !lines.isEmpty {
-                        for line in lines {
-                            offset += UInt64((line + "\n")
-                                .lengthOfBytes(using: .utf8))
-                            let cutted = line.substring(from:
-                                line.characters.index(line.startIndex, offsetBy: 19))
-
-                            if !info.hasFilters
-                                || info.startsWithFilters.any({
-                                    cutted.hasPrefix($0) || cutted.match($0)
-                                })
-                                || info.containsFilters.any({ cutted.contains($0) }) {
-
-                                let logLine = LogLine(namespace: info.name,
-                                                      line: line,
-                                                      include: info.include)
-                                if logLine.time >= startingPoint {
+            let sp = startingPoint.string(format: .iso8601(options: [.withInternetDateTime]))
+            Log.verbose?.message("file exists \(path), offset for \(sp) is \(offset)")
+        }
+        
+        if let data = fileHandle?.readDataToEndOfFile() {
+            if let linesStr = String(data: data, encoding: .utf8) {
+                
+                let lines = linesStr
+                    .components(separatedBy: CharacterSet.newlines)
+                    .filter { !$0.isEmpty && $0.hasPrefix("D ") && $0.characters.count > 20 }
+                
+                if !lines.isEmpty {
+                    for line in lines {
+                        offset += UInt64((line + "\n")
+                            .lengthOfBytes(using: .utf8))
+                        let cutted = line.substring(from:
+                            line.characters.index(line.startIndex, offsetBy: 19))
+                        
+                        if !info.hasFilters
+                            || info.startsWithFilters.any({
+                                cutted.hasPrefix($0) || cutted.match($0)
+                            })
+                            || info.containsFilters.any({ cutted.contains($0) }) {
+                            
+                            let logLine = LogLine(namespace: info.name,
+                                                  line: line,
+                                                  include: info.include)
+                            if logLine.time >= startingPoint {
+                                if asynch {
+                                    logReaderManager?.processLineAsynch(line: logLine)
+                                } else {
                                     logReaderManager?.processLine(line: logLine)
                                 }
                             }
                         }
                     }
-                } else {
-                    Log.warning?.message("Can not read \(path) as utf8, resetting")
-                    fileHandle = nil
-                }
-
-                if !fileManager.fileExists(atPath: path) {
-                    Log.verbose?.message("setting \(path) handle to nil \(offset))")
-                    fileHandle = nil
-                }
-                if fileHandle == nil {
-                    offset = 0
                 }
             } else {
+                Log.warning?.message("Can not read \(path) as utf8, resetting")
                 fileHandle = nil
             }
-
-            Thread.sleep(forTimeInterval: 0.1)
+            
+            if !fileManager.fileExists(atPath: path) {
+                Log.verbose?.message("setting \(path) handle to nil \(offset))")
+                fileHandle = nil
+            }
+            if fileHandle == nil {
+                offset = 0
+            }
+        } else {
+            fileHandle = nil
         }
     }
 
